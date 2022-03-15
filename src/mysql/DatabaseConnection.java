@@ -12,7 +12,7 @@ public class DatabaseConnection {
         connectionURL = "jdbc:mysql://localhost:3306/";
         dbName = "airlinesystem";
         username = "root";
-        password = "Conexiune1";
+        password = "";
     }
     public Connection getConnection() throws Exception {
         Class.forName(driver);
